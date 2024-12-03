@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <style>
+        /* Basic Reset */
+        body, h1, h2, p, ul {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            background: #444;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+        }
+
+        section h2 {
+            color: #333;
+            border-bottom: 2px solid #444;
+            margin-bottom: 10px;
+        }
+
+        .project {
+            margin-bottom: 15px;
+        }
+
+        footer {
+            text-align: center;
+            background: #222;
+            color: #fff;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Siddhi Mishra</h1>
+            <p>Bachelor of Technology | 12<SUP>th</sup> | 10<sup>th</sup><p>
+        </div>
+    </header>
+
+    <nav>
+      <a href="#"><img src="https://photos.app.goo.gl/XpUtrkiUf6EaAM4Z9">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello there! I’m Siddhi Mishra B.Tech student of Kashi Institute of Technology.I'm passionate about cybersecurity and coding. 
+        My goal is to become an ethical hacker and use my expertise to solve real-world problems.In cyber security i'm specially passionate about network security.
+</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>C</li>
+            <li>HTML</li>
+            <li>Problem Solving</li>
+            <li>Group work</li> 
+        </ul>
+    </section>
+    <section id="Projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>calculator using html and CSS</li>
+            <li>Portfolio using html and CSS</li>
+            <li>Tribute page using html and CSS </li>
+            <li>Rock,Paper and Scissors game using python</li>
+            <li>Contact Book using python</li>
+            <li>Mini Calculator using python</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:your-email@example.com">mishrasiddhi751@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/yourusername" target="_blank">https://github.com/Codersiddhi27</a></p>
+        <p>LinkedIn: <a href="https://LinkedIn.com/yourusername"target="_blank">https://www.linkedin.com/in/siddhi-mishra-70119227a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app</a></p>
+        <p>Contact:<a target="_blank">+91 9451277262</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling effect for navigation
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                target.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
